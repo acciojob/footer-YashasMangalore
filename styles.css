@@ -16,6 +16,7 @@ footer{
 	align-items:flex-start;
 }
 .link-boxes{
+	display:flex;
 	flex:1;
 	padding:10px;
 	text-align:center;
@@ -25,7 +26,7 @@ footer{
 	font-size:1.1em;
 }
 .link-boxes a{
-	display:block;
+	display:flex;
 	color:lightgray;
 	margin-bottom:5px;
 }
@@ -50,6 +51,14 @@ footer{
   background: #125688;
   color: white;
 }
+.top{
+	display:flex;
+}
+.media-icons a{
+	display:flex;
+	justify-content:space-evenly;
+	margin-right:10px;
+}
 .fa {
   padding: 5px;
   font-size: 10px;
@@ -59,6 +68,7 @@ footer{
   margin: 5px 2px;
 }
 .media-icons{
+	
 	display:flex;
 	justify-content:space-evenly;
 	margin-left:5px;
